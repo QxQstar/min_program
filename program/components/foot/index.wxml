@@ -1,0 +1,12 @@
+<view class='g-foot'>
+  <!--如果没有登录  -->
+  <view wx:if="{{!login}}" class='loginBtn'>
+    <text>登录</text>
+  </view>
+  <!--已经登录了  -->
+  <view wx:else class='tabs'>
+    <view wx:for="{{ navList }}" class="tabs-item {{ (index + 1) === idx?'active':'' }}" wx:key="{{ index }}">
+      <text>{{ item.text }}</text>
+    </view>
+  </view>
+</view>

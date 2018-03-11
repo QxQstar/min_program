@@ -1,0 +1,31 @@
+.g-foot{
+  height: 100rpx;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 30rpx;
+  background: #fff;
+}
+.g-foot .loginBtn{
+  height: 100%;
+  background-color: #FF3366;
+  text-align: center;
+  line-height: 100rpx;
+  color: #fff;
+}
+.g-foot .tabs{
+  height: 100%;
+  color: #333;
+}
+.g-foot .tabs .tabs-item{
+  float: left;
+  height: 100%;
+  width: 33.333%;
+  text-align: center;
+  line-height: 100rpx;
+}
+.g-foot .tabs .active{
+  background: #FF3366;
+  color: #fff;
+}

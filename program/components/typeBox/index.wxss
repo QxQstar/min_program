@@ -1,0 +1,13 @@
+.img{
+  width: 100%;
+}
+.g-type-box{
+  padding: 20rpx 20rpx 0;
+  background-color: #fff;
+  color: #333;
+  font-size: 30rpx;
+}
+.g-type-box .head-text{
+  text-align: 2em;
+  padding: 30rpx 0;
+}

@@ -1,0 +1,6 @@
+<view class="g-type-box">
+  <image src="{{ typeObj.src }}" mode="aspectFill" class='img' lazy-load='{{true}}'></image>
+  <view class='head-text'>
+    <text>{{ typeObj.text }}</text>
+  </view>
+</view>

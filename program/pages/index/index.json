@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "g-foot": "/components/foot/index",
+    "type-box":"/components/typeBox/index"
+  }
+}

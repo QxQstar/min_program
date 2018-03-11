@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<scroll-view class="container" wx:if="{{ !loading }}">
+  <view class='typeItem'  wx:for="{{ hotList }}" wx:key="{{ index }}">
+   <type-box typeObj="{{item}}"></type-box>
+  </view>
+</scroll-view>
+<loading wx:else>
+  正在加载
+</loading>
+<g-foot idx="{{1}}" login="{{token}}"></g-foot>
