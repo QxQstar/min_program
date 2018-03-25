@@ -1,0 +1,10 @@
+<!--pages/login/login.wxml-->
+<view class='m-login'>
+  <image src="./../../img/log.jpg" class='log' mode='aspectFit'></image>
+  <view class='form'>
+    <input type='text' placeholder='请输入用户名' class='inputBox' placeholder-class='placeClass' value="{{username}}" id='username' focus='true' bindinput="changeValue"></input>
+    <input type='text' placeholder='请输入密码' password='true' class='inputBox' placeholder-class='placeClass' id='password' value='{{password}}' bindinput="changeValue"></input>
+    <view  class='btn' catchtap='submit'>提交</view>
+  </view>
+  <text class='link' catchtap='goIndex'>前往首页</text>
+</view>

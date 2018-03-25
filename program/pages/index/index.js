@@ -12,7 +12,8 @@ Page({
     this.data.hotList = app.globalData.allGift.filter(gift => !!gift.hot);
     this.setData({
       loading:false,
-      hotList: this.data.hotList
+      hotList: this.data.hotList,
+      token: !!app.globalData.token
     })
   }
 })

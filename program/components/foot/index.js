@@ -24,5 +24,13 @@ Component({
         link:'/pages/collecttion'
       }
     ]
+  },
+  methods:{
+    toLogin() {
+      wx.navigateTo({
+        url: '/pages/login/login',
+      })
+    }
   }
+  
 })

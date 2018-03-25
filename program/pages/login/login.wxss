@@ -1,0 +1,41 @@
+/* pages/login/login.wxss */
+.m-login{
+  padding-top: 150rpx;
+  text-align: center;
+}
+.log{
+  width: 250rpx;
+  height: 200rpx;
+}
+.inputBox{
+  height: 100rpx;
+  border-bottom: 1px solid #898989;
+  text-align: left;
+}
+.placeClass{
+  text-align: left;
+  font-size: 28rpx;
+}
+.form{
+  margin-top: 30rpx;
+  margin-left: 60rpx;
+  margin-right: 60rpx;
+}
+.btn{
+  background-color: #FF3366;
+  color: #fff;
+  height: 90rpx;
+  line-height: 90rpx;
+  margin-top: 60rpx;
+  border-radius: 4rpx;
+  font-size: 30rpx;
+}
+.link{
+  display: block;
+  text-align: left;
+  color: #898989;
+  font-size: 24rpx;
+  margin-top: 20rpx;
+  text-decoration: underline;
+  margin-left: 60rpx;
+} 

@@ -1,6 +1,6 @@
 <view class='g-foot'>
   <!--如果没有登录  -->
-  <view wx:if="{{!login}}" class='loginBtn'>
+  <view wx:if="{{!login}}" class='loginBtn' catchtap='toLogin'>
     <text>登录</text>
   </view>
   <!--已经登录了  -->
